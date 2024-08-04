@@ -1,5 +1,5 @@
 from time import time_ns
-from crypto_hash import crypto_hash
+from backend.util.crypto_hash import crypto_hash
 
 GENESIS_DATA = {
     'timestamp': 1,
